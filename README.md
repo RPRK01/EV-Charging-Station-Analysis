@@ -27,7 +27,6 @@ This project applies an end-to-end data analytics and machine learning pipeline 
 | **File Name** | `detailed_ev_charging_stations.csv` |
 | **Volume** | 5,000 records |
 | **Dimensions** | 17 attributes |
-| **Data Hygiene** | Pre-cleaned — zero missing values, no duplicate entries |
 
 **Key Attributes:**
 `Station ID` · `Latitude` · `Longitude` · `Address` · `Charger Type` · `Cost (USD/kWh)` · `Availability` · `Distance to City (km)` · `Usage Stats (avg users/day)` · `Station Operator` · `Charging Capacity (kW)` · `Connector Types` · `Installation Year` · `Renewable Energy Source` · `Reviews (Rating)` · `Parking Spots` · `Maintenance Frequency`
@@ -42,7 +41,6 @@ This project applies an end-to-end data analytics and machine learning pipeline 
 | **Data Manipulation** | `pandas`, `numpy` |
 | **Visualisation** | `matplotlib`, `seaborn` |
 | **Machine Learning** | `scikit-learn` |
-| **Export** | `openpyxl` |
 | **Environment** | Jupyter Notebook (`.ipynb`) · VS Code |
 
 ---
@@ -99,7 +97,7 @@ CSV_PATH = r'path\to\detailed_ev_charging_stations.csv'
 
 ### 3. Run the Notebook
 
-Open `ev_charging_analysis.ipynb` in Jupyter and run:
+Open `Kanishkaraj_RPR_EV_Charging_Station_Analysis.ipynb` in Jupyter and run:
 
 ```
 Kernel → Restart & Run All
@@ -111,15 +109,15 @@ Kernel → Restart & Run All
 
 | File | Description |
 |---|---|
-| `ev_charging_analysis.ipynb` | Main analysis notebook (5 blocks) |
-| `requirements.txt` | Pinned Python dependencies |
-| `ev_station_priority_scores.csv` | ML priority scoring output |
+| `Kanishkaraj_RPR_EV_Charging_Station_Analysis.ipynb` | Main analysis notebook (5 blocks) |
+| `requirements.txt` | Python dependencies |
+| `detailed_ev_charging_stations.csv` | Dataset |
 | `chart1_usage_vs_distance.png` | Scatter — Usage vs. Distance to City |
 | `chart2_avg_cost_by_charger_type.png` | Bar — Avg Cost by Charger Type |
 | `chart3_top_operators.png` | Bar — Top 10 Operator Market Share |
 | `chart4_renewable_energy.png` | Count plot — Renewable Energy Breakdown |
 | `chart5_confusion_matrix.png` | Confusion Matrix — Logistic Regression |
-| `EV_Charging_Station_Project_Report.docx` | Formal project report |
+| `Kanishkaraj_RPR_EV_Charging_Station_ProjectReport.docx` | Formal project report |
 
 ---
 
